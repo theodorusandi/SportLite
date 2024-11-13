@@ -4,7 +4,7 @@
   "description": "SportLite is the browser extension that brings you quick, game-changing sports highlights—no filler, just the best plays. Stay in the loop with fast updates, a personalized feed, and a clean, easy-to-use design. Perfect for fans who want to catch all the action in less time!",
   "version": "1.0",
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
-  }
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting", "activeTab"]
 }
