@@ -6,5 +6,11 @@
   "action": {
     "default_popup": "index.html"
   },
-  "permissions": ["scripting", "activeTab"]
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/feed/subscriptions"
+  ]
 }
